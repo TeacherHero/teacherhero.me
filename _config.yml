@@ -1,11 +1,19 @@
-# Site settings
+---
 title: Teacher Hero
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: hi@teacherhero.me
-description: > # this means to ignore newlines until "baseurl:"
-  Teacher Hero is an open source tool to manage classrooms, grades and students.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://teacherhero.me"
-github_username:  teacherhero
+description: 'Teacher Hero is an open source tool to manage classrooms, grades and
+  students.
 
-# Build settings
+'
+baseurl: ''
+url: https://teacherhero.me
+github_username: teacherhero
 markdown: kramdown
